@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include --C99
+-I C:\Users\Dev\Desktop\0905v0.8\smartlock.intr\MDK-ARM\RTE
+-I D:\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I D:\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include
+-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F051x8 -DUSE_HAL_DRIVER -DSTM32F051x8
+-o smartlock\gsm.o --omf_browse smartlock\gsm.crf --depend smartlock\gsm.d "..\Src\gsm.c"
